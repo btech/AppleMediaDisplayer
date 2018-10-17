@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CD7219D2175A62200AD1217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7219C2175A62200AD1217 /* AppDelegate.swift */; };
+		8CD721A42175A62600AD1217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD721A32175A62600AD1217 /* Assets.xcassets */; };
+		8CD721A72175A62600AD1217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD721A52175A62600AD1217 /* LaunchScreen.storyboard */; };
+		8CD721B72176F2AC00AD1217 /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721AF2176F2AB00AD1217 /* Pagable.swift */; };
+		8CD721B82176F2AC00AD1217 /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721B02176F2AB00AD1217 /* PagingMenuControllerCustomizable.swift */; };
+		8CD721B92176F2AC00AD1217 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721B12176F2AB00AD1217 /* PagingViewController.swift */; };
+		8CD721BA2176F2AC00AD1217 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721B22176F2AB00AD1217 /* MenuViewCustomizable.swift */; };
+		8CD721BB2176F2AC00AD1217 /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721B32176F2AB00AD1217 /* PagingMenuController.swift */; };
+		8CD721BC2176F2AC00AD1217 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721B42176F2AB00AD1217 /* MenuView.swift */; };
+		8CD721BD2176F2AC00AD1217 /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721B52176F2AB00AD1217 /* MenuItemViewCustomizable.swift */; };
+		8CD721BE2176F2AC00AD1217 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721B62176F2AB00AD1217 /* MenuItemView.swift */; };
+		8CD721C72176F91D00AD1217 /* GeneralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721C02176F91D00AD1217 /* GeneralExtensions.swift */; };
+		8CD721C82176F91D00AD1217 /* GeneralGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721C12176F91D00AD1217 /* GeneralGlobals.swift */; };
+		8CD721C92176F91D00AD1217 /* GeneralProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721C22176F91D00AD1217 /* GeneralProtocols.swift */; };
+		8CD721CA2176F91D00AD1217 /* GeneralSubclasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721C42176F91D00AD1217 /* GeneralSubclasses.swift */; };
+		8CD721CB2176F91D00AD1217 /* SortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721C52176F91D00AD1217 /* SortedArray.swift */; };
+		8CD721CC2176F91D00AD1217 /* GeneralOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721C62176F91D00AD1217 /* GeneralOperators.swift */; };
+		8CD721CF21771B3D00AD1217 /* GeneralWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721CE21771B3D00AD1217 /* GeneralWrappers.swift */; };
+		8CD721D221771E9F00AD1217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721D121771E9F00AD1217 /* ViewController.swift */; };
+		8CD721D42177540300AD1217 /* iTunesMusicPagingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721D32177540300AD1217 /* iTunesMusicPagingController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CD721992175A62200AD1217 /* AppleMediaDisplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMediaDisplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD7219C2175A62200AD1217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CD721A32175A62600AD1217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CD721A62175A62600AD1217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CD721A82175A62600AD1217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD721AF2176F2AB00AD1217 /* Pagable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagable.swift; sourceTree = "<group>"; };
+		8CD721B02176F2AB00AD1217 /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
+		8CD721B12176F2AB00AD1217 /* PagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
+		8CD721B22176F2AB00AD1217 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewCustomizable.swift; sourceTree = "<group>"; };
+		8CD721B32176F2AB00AD1217 /* PagingMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuController.swift; sourceTree = "<group>"; };
+		8CD721B42176F2AB00AD1217 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		8CD721B52176F2AB00AD1217 /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
+		8CD721B62176F2AB00AD1217 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		8CD721C02176F91D00AD1217 /* GeneralExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralExtensions.swift; sourceTree = "<group>"; };
+		8CD721C12176F91D00AD1217 /* GeneralGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralGlobals.swift; sourceTree = "<group>"; };
+		8CD721C22176F91D00AD1217 /* GeneralProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralProtocols.swift; sourceTree = "<group>"; };
+		8CD721C42176F91D00AD1217 /* GeneralSubclasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSubclasses.swift; sourceTree = "<group>"; };
+		8CD721C52176F91D00AD1217 /* SortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedArray.swift; sourceTree = "<group>"; };
+		8CD721C62176F91D00AD1217 /* GeneralOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOperators.swift; sourceTree = "<group>"; };
+		8CD721CE21771B3D00AD1217 /* GeneralWrappers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralWrappers.swift; sourceTree = "<group>"; };
+		8CD721D121771E9F00AD1217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CD721D32177540300AD1217 /* iTunesMusicPagingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesMusicPagingController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD721962175A62200AD1217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CD721902175A62100AD1217 = {
+			isa = PBXGroup;
+			children = (
+				8CD7219B2175A62200AD1217 /* AppleMediaDisplayer */,
+				8CD7219A2175A62200AD1217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD7219A2175A62200AD1217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD721992175A62200AD1217 /* AppleMediaDisplayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD7219B2175A62200AD1217 /* AppleMediaDisplayer */ = {
+			isa = PBXGroup;
+			children = (
+				8CD721D121771E9F00AD1217 /* ViewController.swift */,
+				8CD721BF2176F90700AD1217 /* TheFrameworkGeneral */,
+				8CD721AE2176F26A00AD1217 /* PagingViewController */,
+				8CD7219C2175A62200AD1217 /* AppDelegate.swift */,
+				8CD721A32175A62600AD1217 /* Assets.xcassets */,
+				8CD721A52175A62600AD1217 /* LaunchScreen.storyboard */,
+				8CD721A82175A62600AD1217 /* Info.plist */,
+				8CD721D32177540300AD1217 /* iTunesMusicPagingController.swift */,
+			);
+			path = AppleMediaDisplayer;
+			sourceTree = "<group>";
+		};
+		8CD721AE2176F26A00AD1217 /* PagingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8CD721B62176F2AB00AD1217 /* MenuItemView.swift */,
+				8CD721B52176F2AB00AD1217 /* MenuItemViewCustomizable.swift */,
+				8CD721B42176F2AB00AD1217 /* MenuView.swift */,
+				8CD721B22176F2AB00AD1217 /* MenuViewCustomizable.swift */,
+				8CD721AF2176F2AB00AD1217 /* Pagable.swift */,
+				8CD721B32176F2AB00AD1217 /* PagingMenuController.swift */,
+				8CD721B02176F2AB00AD1217 /* PagingMenuControllerCustomizable.swift */,
+				8CD721B12176F2AB00AD1217 /* PagingViewController.swift */,
+			);
+			path = PagingViewController;
+			sourceTree = "<group>";
+		};
+		8CD721BF2176F90700AD1217 /* TheFrameworkGeneral */ = {
+			isa = PBXGroup;
+			children = (
+				8CD721CE21771B3D00AD1217 /* GeneralWrappers.swift */,
+				8CD721C02176F91D00AD1217 /* GeneralExtensions.swift */,
+				8CD721C12176F91D00AD1217 /* GeneralGlobals.swift */,
+				8CD721C62176F91D00AD1217 /* GeneralOperators.swift */,
+				8CD721C22176F91D00AD1217 /* GeneralProtocols.swift */,
+				8CD721C32176F91D00AD1217 /* GeneralSubclasses */,
+			);
+			path = TheFrameworkGeneral;
+			sourceTree = "<group>";
+		};
+		8CD721C32176F91D00AD1217 /* GeneralSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				8CD721C42176F91D00AD1217 /* GeneralSubclasses.swift */,
+				8CD721C52176F91D00AD1217 /* SortedArray.swift */,
+			);
+			path = GeneralSubclasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CD721982175A62200AD1217 /* AppleMediaDisplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD721AB2175A62600AD1217 /* Build configuration list for PBXNativeTarget "AppleMediaDisplayer" */;
+			buildPhases = (
+				8CD721952175A62200AD1217 /* Sources */,
+				8CD721962175A62200AD1217 /* Frameworks */,
+				8CD721972175A62200AD1217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleMediaDisplayer;
+			productName = AppleMediaDisplayer;
+			productReference = 8CD721992175A62200AD1217 /* AppleMediaDisplayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD721912175A62200AD1217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = me;
+				TargetAttributes = {
+					8CD721982175A62200AD1217 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 8CD721942175A62200AD1217 /* Build configuration list for PBXProject "AppleMediaDisplayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CD721902175A62100AD1217;
+			productRefGroup = 8CD7219A2175A62200AD1217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD721982175A62200AD1217 /* AppleMediaDisplayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD721972175A62200AD1217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD721A72175A62600AD1217 /* LaunchScreen.storyboard in Resources */,
+				8CD721A42175A62600AD1217 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD721952175A62200AD1217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD721CB2176F91D00AD1217 /* SortedArray.swift in Sources */,
+				8CD721C72176F91D00AD1217 /* GeneralExtensions.swift in Sources */,
+				8CD721BC2176F2AC00AD1217 /* MenuView.swift in Sources */,
+				8CD721B82176F2AC00AD1217 /* PagingMenuControllerCustomizable.swift in Sources */,
+				8CD721C82176F91D00AD1217 /* GeneralGlobals.swift in Sources */,
+				8CD721D221771E9F00AD1217 /* ViewController.swift in Sources */,
+				8CD721C92176F91D00AD1217 /* GeneralProtocols.swift in Sources */,
+				8CD721BD2176F2AC00AD1217 /* MenuItemViewCustomizable.swift in Sources */,
+				8CD721CC2176F91D00AD1217 /* GeneralOperators.swift in Sources */,
+				8CD721D42177540300AD1217 /* iTunesMusicPagingController.swift in Sources */,
+				8CD721B72176F2AC00AD1217 /* Pagable.swift in Sources */,
+				8CD721BA2176F2AC00AD1217 /* MenuViewCustomizable.swift in Sources */,
+				8CD721CA2176F91D00AD1217 /* GeneralSubclasses.swift in Sources */,
+				8CD721B92176F2AC00AD1217 /* PagingViewController.swift in Sources */,
+				8CD721BB2176F2AC00AD1217 /* PagingMenuController.swift in Sources */,
+				8CD721CF21771B3D00AD1217 /* GeneralWrappers.swift in Sources */,
+				8CD721BE2176F2AC00AD1217 /* MenuItemView.swift in Sources */,
+				8CD7219D2175A62200AD1217 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CD721A52175A62600AD1217 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD721A62175A62600AD1217 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CD721A92175A62600AD1217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CD721AA2175A62600AD1217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CD721AC2175A62600AD1217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D3QC2ZPLT;
+				INFOPLIST_FILE = AppleMediaDisplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.b.AppleMediaDisplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CD721AD2175A62600AD1217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D3QC2ZPLT;
+				INFOPLIST_FILE = AppleMediaDisplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.b.AppleMediaDisplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD721942175A62200AD1217 /* Build configuration list for PBXProject "AppleMediaDisplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD721A92175A62600AD1217 /* Debug */,
+				8CD721AA2175A62600AD1217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD721AB2175A62600AD1217 /* Build configuration list for PBXNativeTarget "AppleMediaDisplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD721AC2175A62600AD1217 /* Debug */,
+				8CD721AD2175A62600AD1217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD721912175A62200AD1217 /* Project object */;
+}
