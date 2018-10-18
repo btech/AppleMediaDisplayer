@@ -27,6 +27,8 @@
 		8CD721CF21771B3D00AD1217 /* GeneralWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721CE21771B3D00AD1217 /* GeneralWrappers.swift */; };
 		8CD721D221771E9F00AD1217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721D121771E9F00AD1217 /* ViewController.swift */; };
 		8CD721D42177540300AD1217 /* iTunesMusicPagingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721D32177540300AD1217 /* iTunesMusicPagingController.swift */; };
+		8CD721E321783AAF00AD1217 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721E221783AAF00AD1217 /* MediaType.swift */; };
+		8CD721E62178405800AD1217 /* FeedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721E52178405800AD1217 /* FeedType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		8CD721CE21771B3D00AD1217 /* GeneralWrappers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralWrappers.swift; sourceTree = "<group>"; };
 		8CD721D121771E9F00AD1217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CD721D32177540300AD1217 /* iTunesMusicPagingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesMusicPagingController.swift; sourceTree = "<group>"; };
+		8CD721E221783AAF00AD1217 /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		8CD721E52178405800AD1217 /* FeedType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				8CD721D121771E9F00AD1217 /* ViewController.swift */,
+				8CD721E121783AA100AD1217 /* Models */,
 				8CD721BF2176F90700AD1217 /* TheFrameworkGeneral */,
 				8CD721AE2176F26A00AD1217 /* PagingViewController */,
 				8CD7219C2175A62200AD1217 /* AppDelegate.swift */,
@@ -131,6 +136,15 @@
 				8CD721C52176F91D00AD1217 /* SortedArray.swift */,
 			);
 			path = GeneralSubclasses;
+			sourceTree = "<group>";
+		};
+		8CD721E121783AA100AD1217 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CD721E221783AAF00AD1217 /* MediaType.swift */,
+				8CD721E52178405800AD1217 /* FeedType.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,10 +228,12 @@
 				8CD721CC2176F91D00AD1217 /* GeneralOperators.swift in Sources */,
 				8CD721D42177540300AD1217 /* iTunesMusicPagingController.swift in Sources */,
 				8CD721B72176F2AC00AD1217 /* Pagable.swift in Sources */,
+				8CD721E62178405800AD1217 /* FeedType.swift in Sources */,
 				8CD721BA2176F2AC00AD1217 /* MenuViewCustomizable.swift in Sources */,
 				8CD721CA2176F91D00AD1217 /* GeneralSubclasses.swift in Sources */,
 				8CD721B92176F2AC00AD1217 /* PagingViewController.swift in Sources */,
 				8CD721BB2176F2AC00AD1217 /* PagingMenuController.swift in Sources */,
+				8CD721E321783AAF00AD1217 /* MediaType.swift in Sources */,
 				8CD721CF21771B3D00AD1217 /* GeneralWrappers.swift in Sources */,
 				8CD721BE2176F2AC00AD1217 /* MenuItemView.swift in Sources */,
 				8CD7219D2175A62200AD1217 /* AppDelegate.swift in Sources */,
