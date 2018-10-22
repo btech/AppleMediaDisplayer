@@ -25,6 +25,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {}
 }
 
+fileprivate func mediaTypesPagingController(for mediaTypes: [MediaType]) -> PagingMenuController {
+    
+    let menuItemTraits = mediaTypes.map { return MenuItemViewTraits(text: $0.title) }
+    let menuTraits = MenuViewTraits(itemTraits: menuItemTraits)
+    let pagingControllers = mediaTypes.map { feedTypesPagingController(for: $0) }
+    
+    return PagingMenuController(traits: PagingMenuControllerTraits(pagingControllers: pagingControllers, menuTraits: menuTraits))
+}
+
 fileprivate func feedTypesPagingController(for mediaType: MediaType) -> PagingMenuController {
     
     let menuViewHeight: CGFloat = 40
