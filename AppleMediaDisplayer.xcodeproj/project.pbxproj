@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C81E15D2178B2C1009C8A2B /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81E15C2178B2C1009C8A2B /* MediaView.swift */; };
+		8C81E15F2178B2E7009C8A2B /* MediaTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81E15E2178B2E7009C8A2B /* MediaTVC.swift */; };
+		8C81E1682179A1A9009C8A2B /* AVHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81E1672179A1A9009C8A2B /* AVHelper.swift */; };
+		8CD377F9217DFDC600F901A6 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD377F8217DFDC600F901A6 /* NetworkInterface.swift */; };
 		8CD7219D2175A62200AD1217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7219C2175A62200AD1217 /* AppDelegate.swift */; };
 		8CD721A42175A62600AD1217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD721A32175A62600AD1217 /* Assets.xcassets */; };
 		8CD721A72175A62600AD1217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD721A52175A62600AD1217 /* LaunchScreen.storyboard */; };
@@ -25,13 +29,19 @@
 		8CD721CB2176F91D00AD1217 /* SortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721C52176F91D00AD1217 /* SortedArray.swift */; };
 		8CD721CC2176F91D00AD1217 /* GeneralOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721C62176F91D00AD1217 /* GeneralOperators.swift */; };
 		8CD721CF21771B3D00AD1217 /* GeneralWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721CE21771B3D00AD1217 /* GeneralWrappers.swift */; };
-		8CD721D221771E9F00AD1217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721D121771E9F00AD1217 /* ViewController.swift */; };
-		8CD721D42177540300AD1217 /* iTunesMusicPagingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721D32177540300AD1217 /* iTunesMusicPagingController.swift */; };
+		8CD721E0217830D200AD1217 /* CMediaFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721DF217830D200AD1217 /* CMediaFeed.swift */; };
 		8CD721E321783AAF00AD1217 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721E221783AAF00AD1217 /* MediaType.swift */; };
 		8CD721E62178405800AD1217 /* FeedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721E52178405800AD1217 /* FeedType.swift */; };
+		8CD721EA21784EFE00AD1217 /* MediaTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721E921784EFE00AD1217 /* MediaTypes.swift */; };
+		8CD721EC217874D100AD1217 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD721EB217874D100AD1217 /* Media.swift */; };
+		8CD723B72178889900AD1217 /* ParsingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD723B62178889900AD1217 /* ParsingModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C81E15C2178B2C1009C8A2B /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
+		8C81E15E2178B2E7009C8A2B /* MediaTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTVC.swift; sourceTree = "<group>"; };
+		8C81E1672179A1A9009C8A2B /* AVHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVHelper.swift; sourceTree = "<group>"; };
+		8CD377F8217DFDC600F901A6 /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
 		8CD721992175A62200AD1217 /* AppleMediaDisplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMediaDisplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD7219C2175A62200AD1217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CD721A32175A62600AD1217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,10 +62,12 @@
 		8CD721C52176F91D00AD1217 /* SortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedArray.swift; sourceTree = "<group>"; };
 		8CD721C62176F91D00AD1217 /* GeneralOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralOperators.swift; sourceTree = "<group>"; };
 		8CD721CE21771B3D00AD1217 /* GeneralWrappers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralWrappers.swift; sourceTree = "<group>"; };
-		8CD721D121771E9F00AD1217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8CD721D32177540300AD1217 /* iTunesMusicPagingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesMusicPagingController.swift; sourceTree = "<group>"; };
+		8CD721DF217830D200AD1217 /* CMediaFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMediaFeed.swift; sourceTree = "<group>"; };
 		8CD721E221783AAF00AD1217 /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
 		8CD721E52178405800AD1217 /* FeedType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedType.swift; sourceTree = "<group>"; };
+		8CD721E921784EFE00AD1217 /* MediaTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTypes.swift; sourceTree = "<group>"; };
+		8CD721EB217874D100AD1217 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		8CD723B62178889900AD1217 /* ParsingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C81E15A2178B296009C8A2B /* CMediaFeed */ = {
+			isa = PBXGroup;
+			children = (
+				8CD721DF217830D200AD1217 /* CMediaFeed.swift */,
+				8C81E15C2178B2C1009C8A2B /* MediaView.swift */,
+				8C81E15E2178B2E7009C8A2B /* MediaTVC.swift */,
+			);
+			path = CMediaFeed;
+			sourceTree = "<group>";
+		};
+		8C81E1622178B382009C8A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CD721BF2176F90700AD1217 /* TheFrameworkGeneral */,
+				8CD721AE2176F26A00AD1217 /* PagingViewController */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CD377F7217D933200F901A6 /* Auxilliary */ = {
+			isa = PBXGroup;
+			children = (
+				8C81E1672179A1A9009C8A2B /* AVHelper.swift */,
+			);
+			name = Auxilliary;
+			path = Aux;
+			sourceTree = "<group>";
+		};
+		8CD377FA217DFF0500F901A6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8CD377F8217DFDC600F901A6 /* NetworkInterface.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		8CD721902175A62100AD1217 = {
 			isa = PBXGroup;
 			children = (
@@ -88,15 +136,16 @@
 		8CD7219B2175A62200AD1217 /* AppleMediaDisplayer */ = {
 			isa = PBXGroup;
 			children = (
-				8CD721D121771E9F00AD1217 /* ViewController.swift */,
-				8CD721E121783AA100AD1217 /* Models */,
-				8CD721BF2176F90700AD1217 /* TheFrameworkGeneral */,
-				8CD721AE2176F26A00AD1217 /* PagingViewController */,
 				8CD7219C2175A62200AD1217 /* AppDelegate.swift */,
+				8CD721E421783AF900AD1217 /* Controllers */,
+				8CD721E121783AA100AD1217 /* Models */,
+				8CD377FA217DFF0500F901A6 /* Networking */,
+				8CD721E821784EF200AD1217 /* Data */,
+				8CD377F7217D933200F901A6 /* Auxilliary */,
+				8C81E1622178B382009C8A2B /* Frameworks */,
 				8CD721A32175A62600AD1217 /* Assets.xcassets */,
 				8CD721A52175A62600AD1217 /* LaunchScreen.storyboard */,
 				8CD721A82175A62600AD1217 /* Info.plist */,
-				8CD721D32177540300AD1217 /* iTunesMusicPagingController.swift */,
 			);
 			path = AppleMediaDisplayer;
 			sourceTree = "<group>";
@@ -143,8 +192,26 @@
 			children = (
 				8CD721E221783AAF00AD1217 /* MediaType.swift */,
 				8CD721E52178405800AD1217 /* FeedType.swift */,
+				8CD721EB217874D100AD1217 /* Media.swift */,
+				8CD723B62178889900AD1217 /* ParsingModels.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8CD721E421783AF900AD1217 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C81E15A2178B296009C8A2B /* CMediaFeed */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8CD721E821784EF200AD1217 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8CD721E921784EFE00AD1217 /* MediaTypes.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,22 +288,28 @@
 				8CD721C72176F91D00AD1217 /* GeneralExtensions.swift in Sources */,
 				8CD721BC2176F2AC00AD1217 /* MenuView.swift in Sources */,
 				8CD721B82176F2AC00AD1217 /* PagingMenuControllerCustomizable.swift in Sources */,
+				8CD721EC217874D100AD1217 /* Media.swift in Sources */,
 				8CD721C82176F91D00AD1217 /* GeneralGlobals.swift in Sources */,
-				8CD721D221771E9F00AD1217 /* ViewController.swift in Sources */,
 				8CD721C92176F91D00AD1217 /* GeneralProtocols.swift in Sources */,
 				8CD721BD2176F2AC00AD1217 /* MenuItemViewCustomizable.swift in Sources */,
 				8CD721CC2176F91D00AD1217 /* GeneralOperators.swift in Sources */,
-				8CD721D42177540300AD1217 /* iTunesMusicPagingController.swift in Sources */,
 				8CD721B72176F2AC00AD1217 /* Pagable.swift in Sources */,
 				8CD721E62178405800AD1217 /* FeedType.swift in Sources */,
+				8C81E15F2178B2E7009C8A2B /* MediaTVC.swift in Sources */,
 				8CD721BA2176F2AC00AD1217 /* MenuViewCustomizable.swift in Sources */,
 				8CD721CA2176F91D00AD1217 /* GeneralSubclasses.swift in Sources */,
 				8CD721B92176F2AC00AD1217 /* PagingViewController.swift in Sources */,
 				8CD721BB2176F2AC00AD1217 /* PagingMenuController.swift in Sources */,
 				8CD721E321783AAF00AD1217 /* MediaType.swift in Sources */,
+				8CD721E0217830D200AD1217 /* CMediaFeed.swift in Sources */,
+				8CD377F9217DFDC600F901A6 /* NetworkInterface.swift in Sources */,
 				8CD721CF21771B3D00AD1217 /* GeneralWrappers.swift in Sources */,
+				8CD721EA21784EFE00AD1217 /* MediaTypes.swift in Sources */,
+				8CD723B72178889900AD1217 /* ParsingModels.swift in Sources */,
 				8CD721BE2176F2AC00AD1217 /* MenuItemView.swift in Sources */,
 				8CD7219D2175A62200AD1217 /* AppDelegate.swift in Sources */,
+				8C81E15D2178B2C1009C8A2B /* MediaView.swift in Sources */,
+				8C81E1682179A1A9009C8A2B /* AVHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

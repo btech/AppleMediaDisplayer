@@ -24,3 +24,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(_ application: UIApplication) {}
     func applicationWillTerminate(_ application: UIApplication) {}
 }
+
+fileprivate func feedTypesPagingController(for mediaType: MediaType) -> PagingMenuController {
+    
+    let menuViewHeight: CGFloat = 40
+    
+    let menuItemTraits = mediaType.feedTypes.map { return MenuItemViewTraits(text: $0.title) }
+    let menuTraits = MenuViewTraits(height: menuViewHeight,
+                                    itemTraits: menuItemTraits,
+                                    displayMode: .standard(widthMode: .flexible,
+                                                           centerItem: true,
+                                                           scrollingMode: .scrollEnabled
+                                    )
+    )
+    let pagingControllers = mediaType.feedTypes.map { CMediaFeed(feedType: $0, mediaType: mediaType) }
+    
+    return PagingMenuController(traits: PagingMenuControllerTraits(pagingControllers: pagingControllers, menuTraits: menuTraits))
+}
