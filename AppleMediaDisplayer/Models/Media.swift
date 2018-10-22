@@ -32,15 +32,18 @@ class Media: Decodable {
         guard previewURL.isNil else { return }
         
         let previewSourceURL = URL(string: "\(Media.previewSourceBaseURL)\(id)")!
-        URLSession.shared.dataTask(with: previewSourceURL) { (data, response, error) in
+        URLSession.shared.dataTask(with: previewSourceURL) { [weak self] (data, response, error) in
             
-            guard error.isNil else { return }
+            guard let strongSelf = self else { return }
+            
+            guard error.isNil else { print(error!.localizedDescription); return }
             
             DispatchQueue.main.async {
                 
-                self.previewURL = try! JSONDecoder().decode(ResultsWrapper.self, from: data!).results.first?.previewURL
+                let decodedData = data ?! { try? JSONDecoder().decode(ResultsWrapper.self, from: $0) }
+                strongSelf.previewURL = decodedData?.results.first?.previewURL
             }
             
-            }.resume()
+        }.resume()
     }
 }

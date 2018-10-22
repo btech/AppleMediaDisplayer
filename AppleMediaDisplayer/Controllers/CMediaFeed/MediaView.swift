@@ -92,12 +92,14 @@ fileprivate class URLImageView: UIImageView {
         
         image = nil; self.url = url
         
-        URLSession.shared.dataTask(with: url) { (data, response, error) in
+        URLSession.shared.dataTask(with: url) { [weak self] (data, response, error) in
             
-            guard self.url == url && error.isNil else { return }
+            guard let strongSelf = self else { return }
             
-            DispatchQueue.main.async { self.image = UIImage(data: data!) }
+            guard strongSelf.url == url && error.isNil else { return }
             
-            }.resume()
+            DispatchQueue.main.async { data ?! { strongSelf.image = UIImage(data: $0) } }
+            
+        }.resume()
     }
 }
