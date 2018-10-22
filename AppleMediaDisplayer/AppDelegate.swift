@@ -12,8 +12,17 @@ import AVKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    private let window: UIWindow = {
+        
+        $0.backgroundColor = UIColor.white; return $0
+        
+    }(UIWindow(frame: UIScreen.main.bounds))
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        window.rootViewController = mediaTypesPagingController(for: mediaTypes)
+        window.makeKeyAndVisible()
         
         return true
     }
